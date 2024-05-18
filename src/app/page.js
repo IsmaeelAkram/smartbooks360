@@ -7,6 +7,7 @@ import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import Partners from '@/components/partners';
 import WhyChooseUs from '@/components/whyChooseUs';
+import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -97,7 +98,7 @@ export default function Home() {
 				<WhyChooseUs />
 
 				<PaddingContainer>
-					<div className="mt-12 faqs">
+					<div className="faqs">
 						<h2 className="mb-8">Bookkeeping FAQs</h2>
 						<div>
 							<h3>What are outsourced accounting and bookkeeping services?</h3>
@@ -134,6 +135,36 @@ export default function Home() {
 						<Button>Get in touch</Button>
 					</div>
 				</PaddingContainer>
+
+				<div className="w-full bg-gray-100 mt-12 p-12 flex justify-center items-center flex-col">
+					<h2 className="mb-10">We ❤️ working with you</h2>
+					<div className="clients grid grid-rows-2 grid-cols-3 gap-10 w-3/4">
+						<div>
+							<h3 className="mb-10 font-medium">Veterinary</h3>
+							<Image src="/veterinary.png" width={250} height={250} />
+						</div>
+						<div>
+							<h3 className="mb-10 font-medium">Therapists</h3>
+							<Image src="/therapists.png" width={250} height={250} />
+						</div>
+						<div>
+							<h3 className="mb-10 font-medium">Small businesses</h3>
+							<Image src="/small-businesses.png" width={250} height={250} />
+						</div>
+						<div>
+							<h3 className="mb-10 font-medium">Dentists</h3>
+							<Image src="/dentists.jpeg" width={250} height={250} />
+						</div>
+						<div>
+							<h3 className="mb-10 font-medium">Chiropractors</h3>
+							<Image src="/chiropractors.jpeg" width={250} height={250} />
+						</div>
+						<div>
+							<h3 className="mb-10 font-medium">Coaches and Consultants</h3>
+							<Image src="/coaches.jpeg" width={250} height={250} />
+						</div>
+					</div>
+				</div>
 
 				<Footer />
 			</PageContainer>

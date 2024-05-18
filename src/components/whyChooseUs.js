@@ -27,7 +27,7 @@ const reasons = [
 
 export default function WhyChooseUs() {
 	return (
-		<div className="mt-12 bg-black text-white p-20">
+		<div className="mt-12 bg-black text-white p-12">
 			<h2>Why choose us as your bookkeeper?</h2>
 			{/* 0, -420, -840, -1260, -1680, -2100 */}
 			<motion.div

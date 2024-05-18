@@ -98,3 +98,16 @@ h3 {
   opacity: .6;
   line-height: 30px;
 }
+
+.clients div {
+  @apply drop-shadow-2xl;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.clients div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
