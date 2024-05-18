@@ -51,7 +51,7 @@ export default function Home() {
 					</p>
 				</div>
 				<PaddingContainer>
-					<div className="mt-12 grid grid-cols-6">
+					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
 							<h2>Concentrate on your business</h2>
 							<p>
@@ -60,12 +60,12 @@ export default function Home() {
 								specialists.
 							</p>
 						</div>
-						<div className="col-span-2">
+						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
 							<img src="/concentrate.svg" className="w-full drop-shadow-xl" />
 						</div>
 					</div>
-					<div className="mt-12 grid grid-cols-6">
-						<div className="col-span-2">
+					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
+						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
 							<img src="/yay.svg" className="w-full drop-shadow-xl" />
 						</div>
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
@@ -77,7 +77,7 @@ export default function Home() {
 							</p>
 						</div>
 					</div>
-					<div className="mt-12 grid grid-cols-6">
+					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
 							<h2>
 								Customizing your bookkeeping
@@ -90,7 +90,7 @@ export default function Home() {
 								specialists.
 							</p>
 						</div>
-						<div className="col-span-2">
+						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
 							<img src="/sheets.svg" className="w-full drop-shadow-xl" />
 						</div>
 					</div>
@@ -137,9 +137,9 @@ export default function Home() {
 					</div>
 				</PaddingContainer>
 
-				<div className="w-full bg-gray-100 mt-12 p-12 flex justify-center items-center flex-col">
+				<div className="w-full bg-gray-100 mt-12 sm:px-20 sm:py-32 px-5 py-16 flex justify-center items-center flex-col">
 					<h2 className="mb-10">We ❤️ working with you</h2>
-					<div className="clients grid grid-rows-2 grid-cols-3 gap-10 w-3/4">
+					<div className="w-full sm:w-3/4 clients grid grid-rows-6 sm:grid-rows-2 sm:grid-cols-3 gap-2 sm:gap-10">
 						<div>
 							<h3 className="mb-10 font-medium">Veterinary</h3>
 							<Image src="/veterinary.png" width={250} height={250} />
