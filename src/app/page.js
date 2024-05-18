@@ -1,7 +1,9 @@
 import Button from '@/components/button';
 import CalendlyButton from '@/components/calendly';
 import DownArrow from '@/components/downArrow';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
+import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import Partners from '@/components/partners';
 import WhyChooseUs from '@/components/whyChooseUs';
@@ -11,7 +13,7 @@ export default function Home() {
 		<>
 			<CalendlyButton />
 			<PageContainer>
-				<div className="sm:p-12 p-4">
+				<PaddingContainer>
 					<Header />
 					<div className="grid grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
@@ -90,9 +92,50 @@ export default function Home() {
 							<img src="/sheets.svg" className="w-full" />
 						</div>
 					</div>
-				</div>
+				</PaddingContainer>
 
 				<WhyChooseUs />
+
+				<PaddingContainer>
+					<div className="mt-12 faqs">
+						<h2 className="mb-8">Bookkeeping FAQs</h2>
+						<div>
+							<h3>What are outsourced accounting and bookkeeping services?</h3>
+							<p>
+								Outsourced accounting means hiring a third-party accounting team to handle all or
+								some of your accounting functions for you. This team handles the daily transaction
+								coding, accounts payable and receivable, payroll, and many other services.
+							</p>
+						</div>
+						<div>
+							<h3>Why should you outsource your accounting?</h3>
+							<p>
+								There are numerous reasons why you should outsource your accounting and bookkeeping.
+								Most importantly, saving oneself the time, money, and stress of hiring an in-house
+								full or part-time employee.
+							</p>
+						</div>
+						<div>
+							<h3>Is it cheaper to outsource accounting and bookkeeping?</h3>
+							<p>
+								Yes, hiring an outsourced accountant is often cheaper and more cost-effective.
+								Potentially, saving you 50-70% compared to hiring full or part-time employees.
+							</p>
+						</div>
+						<div>
+							<h3>What do outsourced bookkeepers do?</h3>
+							<p>
+								As a business owner, you should be familiar with the following financial statements:
+								cash flow statements, income statements, and balance sheets. With outsourced
+								bookkeeping, you have access to these statements on a regular basis. Your tax filing
+								process is expedited when you hire a professional to handle your bookkeeping.
+							</p>
+						</div>
+						<Button>Get in touch</Button>
+					</div>
+				</PaddingContainer>
+
+				<Footer />
 			</PageContainer>
 		</>
 	);
