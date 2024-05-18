@@ -11,10 +11,19 @@
   --purple: #6A4ADC;
   --blue: #515999;
   --gray: #909090;
+  --light-black: #151515;
+}
+
+.bg-light-black {
+  background-color: var(--light-black);
 }
 
 .orange {
   color: var(--orange);
+}
+
+.gray {
+  color: var(--gray);
 }
 
 body {
@@ -51,7 +60,6 @@ h2 {
 }
 
 h3 {
-  color: var(--gray);
   font-size: 30px;
   font-weight: 300;
 }
@@ -60,4 +68,18 @@ h3 {
   filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.35));
   padding: 114px 72px;
   border-radius: 46px;
+}
+
+.cards {
+  width: 200%;
+}
+
+.card {
+  box-shadow: 0px 0px 26px 3px rgba(255, 255, 255, 0.14);
+  width: 420px;
+}
+
+.card p {
+  font-size: 22px;
+  line-height: 30px;
 }

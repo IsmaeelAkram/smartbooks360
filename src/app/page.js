@@ -4,6 +4,7 @@ import DownArrow from '@/components/downArrow';
 import Header from '@/components/header';
 import PageContainer from '@/components/pageContainer';
 import Partners from '@/components/partners';
+import WhyChooseUs from '@/components/whyChooseUs';
 
 export default function Home() {
 	return (
@@ -15,7 +16,7 @@ export default function Home() {
 					<div className="grid grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>Your outsourced accounting and bookkeeping team</h1>
-							<h3 className="mt-4">
+							<h3 className="mt-4 gray">
 								Modern outsourced accounting solutions for today's small businesses
 							</h3>
 							<Button className="mt-8">Get in touch</Button>
@@ -88,9 +89,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="mt-12 bg-black text-white p-20">
-					<h2>Why choose us as your bookkeeper?</h2>
-				</div>
+
+				<WhyChooseUs />
 			</PageContainer>
 		</>
 	);
