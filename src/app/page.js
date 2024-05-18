@@ -16,7 +16,7 @@ export default function Home() {
 			<PageContainer>
 				<PaddingContainer>
 					<Header />
-					<div className="grid grid-cols-12 gap-5">
+					<div className="grid grid-cols-0 sm:grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>Your outsourced accounting and bookkeeping team</h1>
 							<h3 className="mt-4 gray">
@@ -24,7 +24,7 @@ export default function Home() {
 							</h3>
 							<Button className="mt-8">Get in touch</Button>
 						</div>
-						<div className="col-span-7 flex justify-center items-end">
+						<div className="col-span-7 flex justify-center items-start sm:items-end mt-4 sm:mt-0">
 							<img src="/hero-vector.svg" className="w-full select-none drop-shadow-xl" />
 						</div>
 					</div>
@@ -33,23 +33,24 @@ export default function Home() {
 					{/* <div className="w-full flex justify-center items-center">
 					<DownArrow />
 				</div> */}
+				</PaddingContainer>
 
-					<div className="part-2 bg-black text-white mt-12">
-						<h2>Are you feeling the burden of bookkeeping?</h2>
-						<p className="mt-8">
-							Don&apos;t worry.{' '}
-							<strong>
-								Smartbooks<span class="orange">360</span>
-							</strong>{' '}
-							is here to help.
-						</p>
-						<p className="mt-8">
-							We are a team of experts that provide outsourced accounting & bookkeeping services to
-							small businesses. For us, there is no such thing as a silly question. Let&apos;s have
-							a conversation about your company&apos;s finances without the jargon or judgment.
-						</p>
-					</div>
-
+				<div className="part-2 bg-black text-white sm:px-20 sm:py-32 px-5 py-16">
+					<h2>Are you feeling the burden of bookkeeping?</h2>
+					<p className="mt-8">
+						Don&apos;t worry.{' '}
+						<strong>
+							Smartbooks<span class="orange">360</span>
+						</strong>{' '}
+						is here to help.
+					</p>
+					<p className="mt-8">
+						We are a team of experts that provide outsourced accounting & bookkeeping services to
+						small businesses. For us, there is no such thing as a silly question. Let&apos;s have a
+						conversation about your company&apos;s finances without the jargon or judgment.
+					</p>
+				</div>
+				<PaddingContainer>
 					<div className="mt-12 grid grid-cols-6">
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
 							<h2>Concentrate on your business</h2>
