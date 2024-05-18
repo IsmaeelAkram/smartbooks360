@@ -35,7 +35,8 @@ export default function WhyChooseUs() {
 				transition={{
 					repeat: Infinity,
 					repeatType: 'reverse',
-					duration: 30,
+					ease: 'linear',
+					duration: 20,
 				}}
 				className="flex flex-row cards mt-12 py-3"
 			>
