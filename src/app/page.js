@@ -24,7 +24,7 @@ export default function Home() {
 							<Button className="mt-8">Get in touch</Button>
 						</div>
 						<div className="col-span-7 flex justify-center items-end">
-							<img src="/hero-vector.svg" className="w-full select-none" />
+							<img src="/hero-vector.svg" className="w-full select-none drop-shadow-xl" />
 						</div>
 					</div>
 
@@ -59,12 +59,12 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="col-span-2">
-							<img src="/concentrate.svg" className="w-full" />
+							<img src="/concentrate.svg" className="w-full drop-shadow-xl" />
 						</div>
 					</div>
 					<div className="mt-12 grid grid-cols-6">
 						<div className="col-span-2">
-							<img src="/yay.svg" className="w-full" />
+							<img src="/yay.svg" className="w-full drop-shadow-xl" />
 						</div>
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
 							<h2>Stress-free and effortless</h2>
@@ -89,7 +89,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="col-span-2">
-							<img src="/sheets.svg" className="w-full" />
+							<img src="/sheets.svg" className="w-full drop-shadow-xl" />
 						</div>
 					</div>
 				</PaddingContainer>
