@@ -2,6 +2,7 @@ import Button from '@/components/button';
 import CalendlyButton from '@/components/calendly';
 import DownArrow from '@/components/downArrow';
 import Footer from '@/components/footer';
+import GetInTouch from '@/components/getInTouch';
 import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
@@ -22,7 +23,9 @@ export default function Home() {
 							<h3 className="mt-4 gray">
 								Modern outsourced accounting solutions for today&apos;s small businesses
 							</h3>
-							<Button className="mt-8">Get in touch</Button>
+							<div className="mt-8">
+								<GetInTouch />
+							</div>
 						</div>
 						<div className="col-span-7 flex justify-center items-start sm:items-end mt-4 sm:mt-0">
 							<img src="/hero-vector.svg" className="w-full select-none drop-shadow-xl" />
@@ -133,7 +136,7 @@ export default function Home() {
 								process is expedited when you hire a professional to handle your bookkeeping.
 							</p>
 						</div>
-						<Button>Get in touch</Button>
+						<GetInTouch />
 					</div>
 				</PaddingContainer>
 
