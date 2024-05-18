@@ -25,7 +25,7 @@ const reasons = [
 	},
 ];
 
-export default function () {
+export default function WhyChooseUs() {
 	return (
 		<div className="mt-12 bg-black text-white p-20">
 			<h2>Why choose us as your bookkeeper?</h2>
@@ -40,7 +40,7 @@ export default function () {
 				className="flex flex-row cards mt-12 py-3"
 			>
 				{reasons.map((reason, index) => (
-					<div className="flex flex-col p-5 bg-light-black mr-10 rounded-3xl card">
+					<div key={index} className="flex flex-col p-5 bg-light-black mr-10 rounded-3xl card">
 						<h3 className="text-white mb-3 font-medium">{reason.title}</h3>
 						<p className="gray">{reason.text}</p>
 					</div>

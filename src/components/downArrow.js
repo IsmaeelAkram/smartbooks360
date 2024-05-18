@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-export default function () {
+export default function DownArrow() {
 	return (
 		<motion.img
 			initial={{ y: 0 }}

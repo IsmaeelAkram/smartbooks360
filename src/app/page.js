@@ -17,7 +17,7 @@ export default function Home() {
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>Your outsourced accounting and bookkeeping team</h1>
 							<h3 className="mt-4 gray">
-								Modern outsourced accounting solutions for today's small businesses
+								Modern outsourced accounting solutions for today&apos;s small businesses
 							</h3>
 							<Button className="mt-8">Get in touch</Button>
 						</div>
@@ -34,7 +34,7 @@ export default function Home() {
 					<div className="part-2 bg-black text-white mt-12">
 						<h2>Are you feeling the burden of bookkeeping?</h2>
 						<p className="mt-8">
-							Don't worry.{' '}
+							Don&apos;t worry.{' '}
 							<strong>
 								Smartbooks<span class="orange">360</span>
 							</strong>{' '}
@@ -42,8 +42,8 @@ export default function Home() {
 						</p>
 						<p className="mt-8">
 							We are a team of experts that provide outsourced accounting & bookkeeping services to
-							small businesses. For us, there is no such thing as a silly question. Let's have a
-							conversation about your company's finances without the jargon or judgment.
+							small businesses. For us, there is no such thing as a silly question. Let&apos;s have
+							a conversation about your company&apos;s finances without the jargon or judgment.
 						</p>
 					</div>
 
@@ -51,8 +51,9 @@ export default function Home() {
 						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
 							<h2>Concentrate on your business</h2>
 							<p>
-								You didn't start your small business to run an accounting department. Let us handle
-								everything you need to succeed with our outsourced accounting team of specialists.
+								You didn&apos;t start your small business to run an accounting department. Let us
+								handle everything you need to succeed with our outsourced accounting team of
+								specialists.
 							</p>
 						</div>
 						<div className="col-span-2">
@@ -80,8 +81,9 @@ export default function Home() {
 								to fit your business needs
 							</h2>
 							<p>
-								You didn't start your small business to run an accounting department. Let us handle
-								everything you need to succeed with our outsourced accounting team of specialists.
+								You didn&apos;t start your small business to run an accounting department. Let us
+								handle everything you need to succeed with our outsourced accounting team of
+								specialists.
 							</p>
 						</div>
 						<div className="col-span-2">
