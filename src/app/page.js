@@ -7,6 +7,7 @@ import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import Partners from '@/components/partners';
+import TextSwitcher from '@/components/textSwitcher';
 import WhyChooseUs from '@/components/whyChooseUs';
 import Image from 'next/image';
 
@@ -19,9 +20,10 @@ export default function Home() {
 					<Header />
 					<div className="grid grid-cols-0 sm:grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
-							<h1>Your outsourced accounting and bookkeeping team</h1>
+							<h1>The best online bookkeeping solution for small businesses</h1>
 							<h3 className="mt-4 gray">
-								Modern outsourced accounting solutions for today&apos;s small businesses
+								Modern outsourced accounting solutions for business owners and entrepeneurs across
+								the country
 							</h3>
 							<div className="mt-8">
 								<GetInTouch />
@@ -39,7 +41,7 @@ export default function Home() {
 				</PaddingContainer>
 
 				<div className="part-2 bg-black text-white sm:px-20 sm:py-32 px-5 py-16">
-					<h2>Are you feeling the burden of bookkeeping?</h2>
+					<TextSwitcher />
 					<p className="mt-8">
 						Don&apos;t worry.{' '}
 						<strong>
