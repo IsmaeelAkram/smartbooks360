@@ -114,3 +114,12 @@ h3 {
   transform: scale(1.05);
   cursor: pointer;
 } */
+
+.orange-svg {
+  filter: invert(39%) sepia(83%) saturate(3501%) hue-rotate(1deg) brightness(99%) contrast(92%);
+  transition: all .12s linear;
+}
+
+.orange-svg:hover {
+  opacity: .6;
+}

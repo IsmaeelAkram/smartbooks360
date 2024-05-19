@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import styled from 'styled-components';
 
 const LogoContainer = styled.div`
@@ -19,7 +20,21 @@ export default function Header() {
 				<img src="/logo-contact.svg" className="mb-2 !w-full" />
 				{/* <p>support@smartbooks360.com &bull; (347) 470-9069</p> */}
 			</LogoContainer>
-			{/* <div className="sm:col-span-4 flex items-end justify-center gap-10"></div> */}
+			<div className="sm:col-span-4 flex items-start justify-end gap-5">
+				<a
+					href="https://www.linkedin.com/company/smartbooks360"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Image src="/linkedin.svg" width={30} height={30} className="orange-svg" />
+				</a>
+				<a href="https://www.instagram.com/smartbooks360" target="_blank" rel="noopener noreferrer">
+					<Image src="/instagram.svg" width={30} height={30} className="orange-svg" />
+				</a>
+				<a href="https://www.facebook.com/smartbooks360" target="_blank" rel="noopener noreferrer">
+					<Image src="/facebook.svg" width={30} height={30} className="orange-svg" />
+				</a>
+			</div>
 		</div>
 	);
 }
