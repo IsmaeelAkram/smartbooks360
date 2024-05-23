@@ -17,7 +17,7 @@ export default function Header() {
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-6 mb-4 sm:mb-0">
 			<LogoContainer className="sm:col-span-2 flex flex-col items-start justify-center select-none">
-				<img src="/logo-contact.svg" className="mb-2 !w-full" />
+				<img src="/big-logo.svg" className="mb-2 !w-full" />
 				{/* <p>support@smartbooks360.com &bull; (347) 470-9069</p> */}
 			</LogoContainer>
 			<div className="sm:col-span-4 flex items-start justify-end gap-5">

@@ -22,7 +22,7 @@ export default function Home() {
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>The best online bookkeeping solution for small businesses</h1>
 							<h3 className="mt-4 gray">
-								Modern outsourced accounting solutions for business owners and entrepeneurs across
+								Modern outsourced accounting solutions for business owners and entrepreneurs across
 								the country
 							</h3>
 							<div className="mt-8">
