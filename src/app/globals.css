@@ -16,6 +16,14 @@
   --light-black: #151515;
 }
 
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
 .bg-light-black {
   background-color: var(--light-black);
 }
@@ -66,7 +74,7 @@ h3 {
   font-weight: 300;
 }
 
-.part-2 {
+.boxshadow {
   filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.35));
   /* padding: 114px 72px; */
   /* border-radius: 46px; */

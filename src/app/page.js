@@ -41,7 +41,7 @@ export default function Home() {
 				</div> */}
 				</PaddingContainer>
 
-				<div className="part-2 bg-black text-white sm:px-20 sm:py-32 px-5 py-16">
+				<div className="boxshadow bg-black text-white sm:px-20 sm:py-32 px-5 py-16">
 					<TextSwitcher />
 					<p className="mt-8">
 						Don&apos;t worry.{' '}
