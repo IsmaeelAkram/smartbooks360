@@ -4,6 +4,11 @@ import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import Image from 'next/image';
 
+export const metadata = {
+	title: 'About Us | Smartbooks360',
+	description: "Modern outsourced accounting solutions for today's small businesses",
+};
+
 export default function AboutPage() {
 	return (
 		<>
