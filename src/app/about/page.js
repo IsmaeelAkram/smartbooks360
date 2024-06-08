@@ -17,8 +17,21 @@ export default function AboutPage() {
 			<PageContainer>
 				<PaddingContainer>
 					<Header />
-					<div className="mt-12"></div>
-					<h1>About us</h1>
+					<h1 className="mt-10">About us</h1>
+					<p className="mb-5">
+						<strong>
+							Smartbooks<span className="orange">360</span>
+						</strong>{' '}
+						is a full-service online bookkeeping firm. Our firm offers reliable and accurate online
+						bookkeeping, accounting, and CFO services. We accomplish this task while reducing our
+						client&apos;s responsibility for hiring personnel or overseeing part-time resources.{' '}
+						<strong>
+							Smartbooks<span className="orange">360</span>
+						</strong>{' '}
+						has established itself as a top choice for hundreds of small business entrepreneurs. Our
+						dedication to excellence and ability to help our clients achieve success have
+						independently recognized us as one of the leading online bookkeeping solutions.
+					</p>
 				</PaddingContainer>
 				<div className="boxshadow grid auto-rows-auto sm:grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 bg-yellow text-black">
 					<div className="sm:col-span-1 flex justify-center items-center mb-3 sm:mb-0">
@@ -57,7 +70,7 @@ export default function AboutPage() {
 						<p>
 							Nas has an MBA and a strong background in taxation, audit, accounting and financial
 							modeling. He brings a healthy range of financial knowledge and a keen eye for detail
-							to them team. He loves to cook, travel and considers himself a digital nomad.
+							to the team. He loves to cook, travel and considers himself a digital nomad.
 						</p>
 					</div>
 				</div>
