@@ -1,4 +1,5 @@
 import CalendlyButton from '@/components/calendly';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
@@ -80,6 +81,7 @@ export default function AboutPage() {
 						</p>
 					</div>
 				</div>
+				<Footer />
 			</PageContainer>
 		</>
 	);
