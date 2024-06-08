@@ -40,7 +40,7 @@ body {
 }
 
 p {
-  font-size: 27px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 40px;
 }
@@ -50,19 +50,19 @@ strong {
 }
 
 h1 {
-  font-size: 58px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
 }
 

@@ -8,6 +8,7 @@ import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import Partners from '@/components/partners';
 import TextSwitcher from '@/components/textSwitcher';
+import VectorReasons from '@/components/vectorReasons';
 import WhyChooseUs from '@/components/whyChooseUs';
 import Image from 'next/image';
 
@@ -52,54 +53,10 @@ export default function Home() {
 					<p className="mt-8">
 						We are a team of experts that provide outsourced accounting & bookkeeping services to
 						small businesses. For us, there is no such thing as a silly question. Let&apos;s have a
-						conversation about your company&apos;s finances without the jargon or judgment.
+						conversation about your company&apos;s finances without the financial jargon.
 					</p>
 				</div>
-				<PaddingContainer>
-					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
-						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
-							<h2>Concentrate on your business</h2>
-							<p>
-								You didn&apos;t start your small business to run an accounting department. Let us
-								handle everything you need to succeed with our outsourced accounting team of
-								specialists.
-							</p>
-						</div>
-						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
-							<img src="/concentrate.svg" className="w-full drop-shadow-xl" />
-						</div>
-					</div>
-					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
-						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
-							<img src="/yay.svg" className="w-full drop-shadow-xl" />
-						</div>
-						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
-							<h2>Stress-free and effortless</h2>
-							<p>
-								Get rid of the frustrations and cash surprises that come with messy books. Let our
-								team of expert outsourced accountants give you accurate and timely financial
-								information about your small business.
-							</p>
-						</div>
-					</div>
-					<div className="mt-12 grid grid-cols-0 sm:grid-cols-6">
-						<div className="col-span-4 flex justify-center items-start flex-col mx-10">
-							<h2>
-								Customizing your bookkeeping
-								<br />
-								to fit your business needs
-							</h2>
-							<p>
-								You didn&apos;t start your small business to run an accounting department. Let us
-								handle everything you need to succeed with our outsourced accounting team of
-								specialists.
-							</p>
-						</div>
-						<div className="col-span-4 sm:col-span-2 flex justify-center items-center">
-							<img src="/sheets.svg" className="w-full drop-shadow-xl" />
-						</div>
-					</div>
-				</PaddingContainer>
+				<VectorReasons />
 
 				<WhyChooseUs />
 
