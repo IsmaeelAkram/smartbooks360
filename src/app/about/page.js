@@ -14,15 +14,15 @@ export default function AboutPage() {
 					<div className="mt-12"></div>
 					<h1>About us</h1>
 				</PaddingContainer>
-				<div className="boxshadow grid grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 bg-yellow text-black">
-					<div className="col-span-1 flex justify-center items-center">
+				<div className="boxshadow grid auto-rows-auto sm:grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 bg-yellow text-black">
+					<div className="sm:col-span-1 flex justify-center items-center mb-3 sm:mb-0">
 						<img
 							src="/anees.jpeg"
 							alt="Anees Akram"
-							className="w-full rounded-2xl drop-shadow-2xl"
+							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
 						/>
 					</div>
-					<div className="col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
 						<h1>Anees Akram</h1>
 						<h3 className="mb-5">Founder & CEO</h3>
 						<p>
@@ -37,11 +37,15 @@ export default function AboutPage() {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 bg-black text-white">
-					<div className="col-span-1 flex justify-center items-center">
-						<img src="/nas.jpeg" alt="Nas" className="w-full rounded-2xl drop-shadow-2xl" />
+				<div className="grid auto-rows-auto sm:grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 bg-black text-white">
+					<div className="sm:col-span-1 flex justify-center items-center mb-3 sm:mb-0">
+						<img
+							src="/nas.jpeg"
+							alt="Nas"
+							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
+						/>
 					</div>
-					<div className="col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
 						<h1>Nas Arif</h1>
 						<h3 className="mb-5">Director of accounting</h3>
 						<p>
@@ -52,15 +56,15 @@ export default function AboutPage() {
 					</div>
 				</div>
 
-				<div className="boxshadow grid grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 text-black">
-					<div className="col-span-1 flex justify-center items-center">
+				<div className="boxshadow grid auto-rows-auto sm:grid-cols-5 sm:px-20 sm:py-32 px-5 py-16 text-black">
+					<div className="sm:col-span-1 flex justify-center items-center mb-3 sm:mb-0">
 						<img
 							src="/chris.jpeg"
 							alt="Chris Stewart"
-							className="w-full rounded-2xl drop-shadow-2xl"
+							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
 						/>
 					</div>
-					<div className="col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
 						<h1>Chris Stewart</h1>
 						<h3 className="mb-5">Senior bookkeeping specialist</h3>
 						<p>
