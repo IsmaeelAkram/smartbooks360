@@ -30,9 +30,9 @@ export default function AboutPage() {
 							bookkeeping company to help entrepreneurs get their time back so they could focus on
 							their business growth and spend time with their families. He and his team help
 							entrepreneurs set up accounting systems that take over the bookkeeping grunt work,
-							saving them valuable time. He's a native New Yorker and currently lives in Queens, NY.
-							He, besides helping entrepreneurs, enjoys time with his two kids and wife, as well as
-							making friends from all walks of life.
+							saving them valuable time. He&apos;s a native New Yorker and currently lives in
+							Queens, NY. He, besides helping entrepreneurs, enjoys time with his two kids and wife,
+							as well as making friends from all walks of life.
 						</p>
 					</div>
 				</div>
