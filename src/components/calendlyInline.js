@@ -9,5 +9,10 @@ export default function CalendlyInline() {
 			parentElement: document.getElementById('calendly-embed'),
 		});
 	}, []);
-	return <div id="calendly-embed" style={{ minWidth: '320px', height: '700px' }}></div>;
+	return (
+		<div
+			id="calendly-embed"
+			style={{ minWidth: '320px', height: '700px', position: 'relative' }}
+		></div>
+	);
 }
