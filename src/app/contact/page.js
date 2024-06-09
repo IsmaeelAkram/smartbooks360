@@ -1,10 +1,8 @@
-'use client';
-
 import CalendlyButton from '@/components/calendly';
+import CalendlyInline from '@/components/calendlyInline';
 import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
-import { useEffect } from 'react';
 
 export const metadata = {
 	title: 'Contact Us | Smartbooks360',
@@ -12,12 +10,6 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-	useEffect(() => {
-		window.Calendly.initInlineWidget({
-			url: 'https://calendly.com/aakram10',
-			parentElement: document.getElementById('calendly-embed'),
-		});
-	}, []);
 	return (
 		<>
 			<CalendlyButton />
@@ -40,7 +32,7 @@ export default function ContactPage() {
 							schedule a meeting:
 						</h3>
 					</div>
-					<div id="calendly-embed" style={{ minWidth: '320px', height: '700px' }}></div>
+					<CalendlyInline />
 				</PaddingContainer>
 			</PageContainer>
 		</>
