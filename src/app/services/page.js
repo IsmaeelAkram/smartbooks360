@@ -86,8 +86,8 @@ export default function ServicesPage() {
 				<div className="bg-white text-black sm:px-20 sm:py-12 px-5 py-16">
 					<h2>Start up</h2>
 					<p className="mb-5">
-						Don&apos;t have a QBO account and don't know where to start? We can help you set up your
-						account.
+						Don&apos;t have a QBO account and don&apos;t know where to start? We can help you set up
+						your account.
 					</p>
 					<GetInTouch />
 				</div>
