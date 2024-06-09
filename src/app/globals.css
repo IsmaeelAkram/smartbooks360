@@ -13,7 +13,20 @@
   --purple: #6A4ADC;
   --blue: #515999;
   --gray: #909090;
+  --light-gray: #eaeaea;
   --light-black: #151515;
+}
+
+.bg-gray {
+  background-color: var(--light-gray);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
 }
 
 .bg-light-black {
@@ -39,8 +52,9 @@ body {
   color: #fff;
 }
 
-p {
-  font-size: 27px;
+p,
+li {
+  font-size: 21px;
   font-weight: 400;
   line-height: 40px;
 }
@@ -50,23 +64,23 @@ strong {
 }
 
 h1 {
-  font-size: 58px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
 }
 
-.part-2 {
+.boxshadow {
   filter: drop-shadow(0px 4px 18px rgba(0, 0, 0, 0.35));
   /* padding: 114px 72px; */
   /* border-radius: 46px; */
@@ -122,4 +136,10 @@ h3 {
 
 .orange-svg:hover {
   opacity: .6;
+}
+
+.nav a {
+  color: var(--light-black);
+  font-weight: 500;
+  transition: all .3s;
 }
