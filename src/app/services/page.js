@@ -38,42 +38,36 @@ export default function ServicesPage() {
 					<div className="grid auto-rows-auto sm:grid-cols-3 gap-5 mt-5">
 						<div className="flex flex-col p-10 bg-white mr-10 rounded-3xl w-full drop-shadow-2xl">
 							<h2>Starter</h2>
-							<p className="pl-4">
-								<ul className="list-disc">
-									<li>Account set up and monthly subscription in QBO</li>
-									<li>Up to 3 bank/credit card accounts</li>
-									<li>Up to 100 transactions</li>
-									<li>Monthly account reconciliation</li>
-									<li>3 monthly financial reports</li>
-									<li>Unlimited email support</li>
-								</ul>
-							</p>
+							<ul className="list-disc">
+								<li>Account set up and monthly subscription in QBO</li>
+								<li>Up to 3 bank/credit card accounts</li>
+								<li>Up to 100 transactions</li>
+								<li>Monthly account reconciliation</li>
+								<li>3 monthly financial reports</li>
+								<li>Unlimited email support</li>
+							</ul>
 						</div>
 						<div className="flex flex-col p-10 bg-white mr-10 rounded-3xl w-full drop-shadow-2xl">
 							<h2>Standard</h2>
-							<p className="pl-4">
-								<ul className="list-disc">
-									<li>Account set up and monthly subscription in QBO</li>
-									<li>Up to 4 bank/credit card accounts</li>
-									<li>Up to 200 transactions</li>
-									<li>Monthly account reconciliation</li>
-									<li>3 monthly financial reports</li>
-									<li>Unlimited email support</li>
-								</ul>
-							</p>
+							<ul className="list-disc">
+								<li>Account set up and monthly subscription in QBO</li>
+								<li>Up to 4 bank/credit card accounts</li>
+								<li>Up to 200 transactions</li>
+								<li>Monthly account reconciliation</li>
+								<li>3 monthly financial reports</li>
+								<li>Unlimited email support</li>
+							</ul>
 						</div>
 						<div className="flex flex-col p-10 bg-white mr-10 rounded-3xl w-full drop-shadow-2xl">
 							<h2>Premium</h2>
-							<p className="pl-4">
-								<ul className="list-disc">
-									<li>Account set up and monthly subscription in QBO</li>
-									<li>Up to 6 bank/credit card accounts</li>
-									<li>Monthly account reconciliation</li>
-									<li>3 monthly financial reports</li>
-									<li>Monthly live call</li>
-									<li>Unlimited email support</li>
-								</ul>
-							</p>
+							<ul className="list-disc">
+								<li>Account set up and monthly subscription in QBO</li>
+								<li>Up to 6 bank/credit card accounts</li>
+								<li>Monthly account reconciliation</li>
+								<li>3 monthly financial reports</li>
+								<li>Monthly live call</li>
+								<li>Unlimited email support</li>
+							</ul>
 						</div>
 					</div>
 				</div>

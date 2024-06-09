@@ -52,7 +52,8 @@ body {
   color: #fff;
 }
 
-p {
+p,
+li {
   font-size: 21px;
   font-weight: 400;
   line-height: 40px;

@@ -57,14 +57,12 @@ export default function VectorReasons() {
 						<br />
 						to fit your business needs
 					</h2>
-					<p className="pl-4">
-						<ul className="list-disc">
-							<li>P&L, Balance Sheet, Cash Flow Statements</li>
-							<li>Standard or Custom Chart of Accounts</li>
-							<li>Transaction Categorization</li>
-							<li>Payroll accounting</li>
-						</ul>
-					</p>
+					<ul className="list-disc">
+						<li>P&L, Balance Sheet, Cash Flow Statements</li>
+						<li>Standard or Custom Chart of Accounts</li>
+						<li>Transaction Categorization</li>
+						<li>Payroll accounting</li>
+					</ul>
 				</div>
 				<div className="sm:col-span-2 flex justify-center items-center">
 					<img src="/sheets.svg" className="w-full drop-shadow-xl" />
