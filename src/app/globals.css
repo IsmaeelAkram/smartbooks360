@@ -13,7 +13,12 @@
   --purple: #6A4ADC;
   --blue: #515999;
   --gray: #909090;
+  --light-gray: #eaeaea;
   --light-black: #151515;
+}
+
+.bg-gray {
+  background-color: var(--light-gray);
 }
 
 .bg-orange {

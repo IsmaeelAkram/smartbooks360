@@ -3,7 +3,6 @@ import Footer from '@/components/footer';
 import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
-import Image from 'next/image';
 
 export const metadata = {
 	title: 'About Us | Smartbooks360',
@@ -41,7 +40,7 @@ export default function AboutPage() {
 							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
 						/>
 					</div>
-					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 sm:px-10 flex justify-center items-start flex-col">
 						<h1>Anees Akram</h1>
 						<h3 className="mb-5">Founder & CEO</h3>
 						<p>
@@ -64,7 +63,7 @@ export default function AboutPage() {
 							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
 						/>
 					</div>
-					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 sm:px-10 flex justify-center items-start flex-col">
 						<h1>Nas Arif</h1>
 						<h3 className="mb-5">Director of accounting</h3>
 						<p>
@@ -83,13 +82,13 @@ export default function AboutPage() {
 							className="w-1/2 sm:w-full rounded-2xl drop-shadow-2xl"
 						/>
 					</div>
-					<div className="sm:col-span-4 px-10 flex justify-center items-start flex-col">
+					<div className="sm:col-span-4 sm:px-10 flex justify-center items-start flex-col">
 						<h1>Chris Stewart</h1>
 						<h3 className="mb-5">Senior bookkeeping specialist</h3>
 						<p>
 							Chris has a degree in Business Administration with a concentration in Finance and an
 							Economics degree. He has previously worked closely with entrepreneurs in multiple
-							industries including residential construction. Oil and gas and SMMAs. He loves to
+							industries including residential construction, oil and gas, and SMMAs. He loves to
 							travel and currently lives in Columbus, Ohio.
 						</p>
 					</div>
