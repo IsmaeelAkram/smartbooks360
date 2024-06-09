@@ -19,7 +19,7 @@ export default function ServicesPage() {
 					<Header />
 					<h1 className="mt-10">Services</h1>
 				</PaddingContainer>
-				<div className="sm:px-20 sm:py-12 px-5 py-16">
+				<div className="sm:px-20 sm:pb-12 px-5 pb-16">
 					<h2>Bookkeeping</h2>
 					<p>
 						Let our team of experts at{' '}
