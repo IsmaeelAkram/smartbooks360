@@ -6,6 +6,11 @@ import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
 import { useEffect } from 'react';
 
+export const metadata = {
+	title: 'Contact Us | Smartbooks360',
+	description: "Modern outsourced accounting solutions for today's small businesses",
+};
+
 export default function ContactPage() {
 	useEffect(() => {
 		window.Calendly.initInlineWidget({
