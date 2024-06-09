@@ -1,5 +1,6 @@
 import CalendlyButton from '@/components/calendly';
 import CalendlyInline from '@/components/calendlyInline';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import PaddingContainer from '@/components/paddingContainer';
 import PageContainer from '@/components/pageContainer';
@@ -34,6 +35,7 @@ export default function ContactPage() {
 					</div>
 					<CalendlyInline />
 				</PaddingContainer>
+				<Footer />
 			</PageContainer>
 		</>
 	);
