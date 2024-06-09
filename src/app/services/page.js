@@ -18,19 +18,21 @@ export default function ServicesPage() {
 				<PaddingContainer>
 					<Header />
 					<h1 className="mt-10">Services</h1>
+				</PaddingContainer>
+				<div className="sm:px-20 sm:py-12 px-5 py-16">
+					<h2>Bookkeeping</h2>
 					<p>
 						Let our team of experts at{' '}
 						<strong>
 							Smartbooks<span className="orange">360</span>
 						</strong>{' '}
 						be your outsourced accounting department. You won&apos;t have to worry about keeping
-						track of your finances, processing payroll, getting vendors paid, or chasing down
-						clients for payment any more. As your Trusted Advisor, we can also offer you the
-						financial insight you need to develop your business. Concentrate on running your
-						business and know that a team of experts is keeping track of your finances at far less
-						than the cost of your own employees.
+						track of your finances, getting vendors paid, or chasing down clients for payment any
+						more. As your Trusted Advisor, we can also offer you the financial insight you need to
+						develop your business. Concentrate on running your business and know that a team of
+						experts is keeping track of your finances.
 					</p>
-				</PaddingContainer>
+				</div>
 				<div className="bg-yellow text-black sm:px-20 sm:py-12 px-5 py-16">
 					<h2>Plans</h2>
 					<div className="grid auto-rows-auto sm:grid-cols-3 gap-5 mt-5">
