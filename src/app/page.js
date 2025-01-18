@@ -116,7 +116,43 @@ export default function Home() {
 						<GetInTouch />
 					</div>
 				</PaddingContainer>
-
+				<PaddingContainer className="bg-gray-100">
+					<div className="flex justify-center items-center mb-10">
+						<h1 className="font-normal">How to get started:</h1>
+					</div>
+					<div className="grid grid-cols-4 gap-12">
+						<div>
+							<img src="/calendar.svg" className="mb-4" />
+							<h3 className="font-medium">Schedule a Call</h3>
+							<p className="mt-5">
+								Here&apos;s where we&apos;ll get to know you, your business, and what services
+								you&apos;re looking for. Ask us any questions you want!
+							</p>
+						</div>
+						<div>
+							<img src="/paper.svg" className="mb-4" />
+							<h3 className="font-medium">Decision Time</h3>
+							<p className="mt-5">
+								If we&apos;re a fit, we&apos;ll craft a proposal to fit your business needs & goals.
+							</p>
+						</div>
+						<div>
+							<img src="/desktop.svg" className="mb-4" />
+							<h3 className="font-medium">Onboarding</h3>
+							<p className="mt-5">
+								Collaborate with our onboarding team to get set up for success!
+							</p>
+						</div>
+						<div>
+							<img src="/handshake.svg" className="mb-4" />
+							<h3 className="font-medium">Meet your Team</h3>
+							<p className="mt-5">
+								You&apos;ll work with a designated service team who will ensure your finances have
+								you on the road to meet your goals.
+							</p>
+						</div>
+					</div>
+				</PaddingContainer>
 				{/* <div className="w-full bg-gray-100 mt-12 sm:px-20 sm:py-32 px-5 py-16 flex justify-center items-center flex-col">
 					<h2 className="mb-10">We ❤️ working with you</h2>
 					<div className="w-full sm:w-3/4 clients grid grid-rows-6 sm:grid-rows-2 sm:grid-cols-3 gap-2 sm:gap-10">
