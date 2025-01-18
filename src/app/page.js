@@ -19,7 +19,7 @@ export default function Home() {
 			<PageContainer>
 				<PaddingContainer>
 					<Header />
-					<div className="grid grid-cols-0 sm:grid-cols-12 gap-5">
+					<div className="grid grid-cols-0 lg:grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>
 								Know your numbers.
