@@ -22,11 +22,11 @@ export default function Home() {
 					<div className="grid grid-cols-0 sm:grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>
-								Know your numbers
+								Know your numbers.
 								<br />
-								Save big on taxes
+								Save big on taxes.
 								<br />
-								More profit, less stress
+								More profit, less stress.
 							</h1>
 							<h3 className="mt-4 gray">
 								Modern accounting and bookkeeping solutions for agencies and entrepreneurs across
@@ -53,7 +53,7 @@ export default function Home() {
 							<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
 							<Partners />
 						</div>
-						<div className="flex flex-row xl:justify-end justify-center items-center gap-4 mt-8 xl:h-56 xl:w-full h-fit w-1/3 z-10">
+						<div className="flex md:flex-row flex-col xl:justify-end justify-center items-center gap-4 mt-8 xl:h-56 md:w-1/3 h-fit w-full z-10">
 							<video
 								controls
 								controlsList="nofullscreen nodownload noremoteplayback"
