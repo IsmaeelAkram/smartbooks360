@@ -23,7 +23,7 @@ export default function Home() {
 						<div className="col-span-5 flex justify-center items-start flex-col">
 							<h1>The best online bookkeeping solution for small businesses</h1>
 							<h3 className="mt-4 gray">
-								Modern outsourced accounting solutions for business owners and entrepreneurs across
+								Modern accounting and bookkeeping solutions for agencies and entrepreneurs across
 								the country
 							</h3>
 							<div className="mt-8">
@@ -64,42 +64,60 @@ export default function Home() {
 					<div className="faqs">
 						<h2 className="mb-8">Bookkeeping FAQs</h2>
 						<div>
-							<h3>What are outsourced accounting and bookkeeping services?</h3>
+							<h3>How does the monthly bookkeeping process work?</h3>
 							<p>
-								Outsourced accounting means hiring a third-party accounting team to handle all or
-								some of your accounting functions for you. This team handles the daily transaction
-								coding, accounts payable and receivable, payroll, and many other services.
+								We use QuickBooks to analyze and record all of your business activities in order to
+								provide monthly financial statements such as the profit and loss statement and the
+								balance sheet.
 							</p>
 						</div>
 						<div>
-							<h3>Why should you outsource your accounting?</h3>
+							<h3>What are the fees?</h3>
 							<p>
-								There are numerous reasons why you should outsource your accounting and bookkeeping.
-								Most importantly, saving oneself the time, money, and stress of hiring an in-house
-								full or part-time employee.
+								We use a flat rate fee per month. We can talk about what your business needs and
+								figure out how we can help you to succeed.
 							</p>
 						</div>
 						<div>
-							<h3>Is it cheaper to outsource accounting and bookkeeping?</h3>
+							<h3>What services does smartbooks360 provide?</h3>
 							<p>
-								Yes, hiring an outsourced accountant is often cheaper and more cost-effective.
-								Potentially, saving you 50-70% compared to hiring full or part-time employees.
+								We are QuickBooks Online Certified ProAdvisors who specialize in QuickBooks. We work
+								remotely to help you understand your bookkeeping. We also partner with tax
+								professionals to assist with your tax needs.
 							</p>
 						</div>
 						<div>
-							<h3>What do outsourced bookkeepers do?</h3>
+							<h3>How can I know if smartbooks360 is a good fit for my business?</h3>
 							<p>
-								As a business owner, you should be familiar with the following financial statements:
-								cash flow statements, income statements, and balance sheets. With outsourced
-								bookkeeping, you have access to these statements on a regular basis. Your tax filing
-								process is expedited when you hire a professional to handle your bookkeeping.
+								If you are tired of spending all of your time handling your own accounting, love the
+								concept of having a professional set of eyes on your books, we may be a good fit for
+								you.
+							</p>
+						</div>
+						<div>
+							<h3>How will you get access to my quickbooks file?</h3>
+							<p>You will be requested to invite us as an accountant user.</p>
+						</div>
+						<div>
+							<h3>How do I send my documents to you?</h3>
+							<p>
+								We&apos;ll need your bank statements every month. We can set up your bank statements
+								to automatically sync with QuickBooks or you can also send us your documents if you
+								like. We employ secure cloud-based technologies and email for documentation.
+							</p>
+						</div>
+						<div>
+							<h3>Do you also do clean ups?</h3>
+							<p>
+								Yes. We can assist you in cleaning up any messy transactions or erroneous records
+								from the past.
 							</p>
 						</div>
 						<GetInTouch />
 					</div>
 				</PaddingContainer>
 
-				<div className="w-full bg-gray-100 mt-12 sm:px-20 sm:py-32 px-5 py-16 flex justify-center items-center flex-col">
+				{/* <div className="w-full bg-gray-100 mt-12 sm:px-20 sm:py-32 px-5 py-16 flex justify-center items-center flex-col">
 					<h2 className="mb-10">We ❤️ working with you</h2>
 					<div className="w-full sm:w-3/4 clients grid grid-rows-6 sm:grid-rows-2 sm:grid-cols-3 gap-2 sm:gap-10">
 						<div>
@@ -127,7 +145,7 @@ export default function Home() {
 							<Image src="/coaches.jpeg" width={250} height={250} />
 						</div>
 					</div>
-				</div>
+				</div> */}
 
 				<Footer />
 			</PageContainer>
