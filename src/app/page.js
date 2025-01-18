@@ -82,7 +82,10 @@ export default function Home() {
 						</div>
 						<div>
 							<h3>What are the fees?</h3>
-							<p></p>
+							<p>
+								We use a flat rate fee per month. We can talk about what your business needs and
+								figure out how we can help you to succeed.
+							</p>
 						</div>
 						<div>
 							<h3>How can I know if smartbooks360 is a good fit for my business?</h3>
