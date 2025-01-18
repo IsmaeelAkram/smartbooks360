@@ -80,13 +80,22 @@ export default function Home() {
 							</video>
 						</div>
 					</div>
-					<div
-						class="review-widget_net mt-5"
-						data-uuid="9dfff837-9467-4df8-b364-3462ef756065"
-						data-template="2"
-						data-lang="en"
-						data-theme="light"
-					></div>
+					<div className="flex flex-row justify-center items-center gap-5 mt-5">
+						<div
+							class="review-widget_net m-0"
+							data-uuid="9dfff837-9467-4df8-b364-3462ef756065"
+							data-template="2"
+							data-lang="en"
+							data-theme="light"
+						></div>
+						<a href="https://proadvisor.intuit.com/app/accountant/search?searchId=anees-akram">
+							<img
+								src="/quickbooks_review.jpg"
+								alt="Quickbooks Reviews"
+								className="h-20 rounded-lg"
+							/>
+						</a>
+					</div>
 				</div>
 				<VectorReasons />
 
