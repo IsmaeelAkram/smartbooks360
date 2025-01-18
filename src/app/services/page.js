@@ -17,9 +17,9 @@ export default function ServicesPage() {
 			<PageContainer>
 				<PaddingContainer>
 					<Header />
-					<h1 className="mt-10">Services</h1>
+					{/* <h1 className="mt-10">Services</h1> */}
 				</PaddingContainer>
-				<div className="sm:px-20 sm:pb-12 px-5 pb-16">
+				{/* <div className="sm:px-20 sm:pb-12 px-5 pb-16">
 					<h2>Bookkeeping</h2>
 					<p>
 						Let our team of experts at{' '}
@@ -32,7 +32,7 @@ export default function ServicesPage() {
 						develop your business. Concentrate on running your business and know that a team of
 						experts is keeping track of your finances.
 					</p>
-				</div>
+				</div> */}
 				<div className="bg-yellow text-black sm:px-20 sm:py-12 px-5 py-16">
 					<h2>Plans</h2>
 					<div className="grid auto-rows-auto sm:grid-cols-3 gap-5 mt-5">
