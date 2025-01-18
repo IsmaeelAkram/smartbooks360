@@ -35,7 +35,7 @@ export default function ServicesPage() {
 				</div> */}
 				<div className="bg-yellow text-black sm:px-20 sm:py-12 px-5 py-16">
 					<h2>Plans</h2>
-					<div className="grid auto-rows-auto sm:grid-cols-3 gap-5 mt-5">
+					<div className="grid auto-rows-auto lg:grid-cols-3 gap-5 mt-5">
 						<div className="flex flex-col p-10 bg-white mr-10 rounded-3xl w-full drop-shadow-2xl">
 							<h2>Starter</h2>
 							<h3 className="font-bold">$249/mo</h3>
@@ -102,7 +102,7 @@ export default function ServicesPage() {
 					<GetInTouch />
 				</div> */}
 				<div className="bg-white text-black sm:px-20 sm:py-12 px-5 py-16  flex flex-col justify-center items-center">
-					<div className="w-1/2 flex flex-col justify-center items-center">
+					<div className="lg:w-1/2 w-full flex flex-col justify-center items-center">
 						<h2 className="underline">One Time Cleanup Service</h2>
 						<img src="/folder.png" className="my-2 invert" />
 						<p className="text-center">
@@ -112,7 +112,7 @@ export default function ServicesPage() {
 						</p>
 					</div>
 					<h2 className="mt-16 underline">Monthly Recurring Service</h2>
-					<div className="flex flex-row justify-center items-start gap-24 mt-2 mb-16">
+					<div className="flex md:flex-row flex-col justify-center items-start lg:gap-24 gap-5 mt-2 mb-16">
 						<div>
 							<div className="flex justify-center items-center">
 								<img src="/folder_switch.png" className="my-2 invert" />

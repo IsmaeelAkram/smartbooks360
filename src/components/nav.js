@@ -21,13 +21,13 @@ const StyledLink = styled(Link)`
 	}
 `;
 
-export default function Nav() {
+export default function Nav({ className }) {
 	const pathname = usePathname();
 	useEffect(() => {
 		console.log('pathname: ', pathname);
 	}, [pathname]);
 	return (
-		<div className="nav flex justify-center items-center h-full gap-1">
+		<div className={className + ' nav flex justify-center items-center h-full gap-1'}>
 			{navLinks.map((link) => (
 				<StyledLink key={link.href} href={link.href} isActive={pathname === link.href}>
 					{link.label}

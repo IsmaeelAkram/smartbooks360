@@ -17,16 +17,16 @@ const LogoContainer = styled.div`
 
 export default function Header() {
 	return (
-		<div className="grid grid-cols-1 sm:grid-cols-6 mb-4 sm:mb-0">
-			<LogoContainer className="sm:col-span-2 flex flex-col items-start justify-center select-none">
-				<Link href="/" className="mb-2 !w-2/3">
+		<div className="grid grid-cols-6 mb-4 sm:mb-0">
+			<LogoContainer className="col-span-2 flex flex-col items-start justify-center select-none">
+				<Link href="/" className="sm:mb-2 sm:w-2/3 w-full">
 					<img src="/big-logo.svg" alt="Smartbooks360" />
 				</Link>
 				{/* <p>support@smartbooks360.com &bull; (347) 470-9069</p> */}
 			</LogoContainer>
-			<div className="sm:col-span-4 flex items-start justify-end gap-10">
-				<Nav />
-				<div className="flex justify-center items-center h-full gap-3">
+			<div className="col-span-4 flex items-start justify-end">
+				<Nav className="sm:ml-0 ml-auto" />
+				<div className="sm:ml-10 ml-auto flex justify-center items-center h-full gap-3">
 					<a
 						href="https://www.linkedin.com/company/smartbooks360"
 						target="_blank"

@@ -21,7 +21,13 @@ export default function Home() {
 					<Header />
 					<div className="grid grid-cols-0 sm:grid-cols-12 gap-5">
 						<div className="col-span-5 flex justify-center items-start flex-col">
-							<h1>The best online bookkeeping solution for small businesses</h1>
+							<h1>
+								Know your numbers
+								<br />
+								Save big on taxes
+								<br />
+								More profit, less stress
+							</h1>
 							<h3 className="mt-4 gray">
 								Modern accounting and bookkeeping solutions for agencies and entrepreneurs across
 								the country
@@ -41,16 +47,16 @@ export default function Home() {
 				</div> */}
 				</PaddingContainer>
 
-				<div className="flex sm:flex-row flex-col justify-start items-center bg-gray-100 text-black sm:px-12 sm:py-12 px-5 py-6">
+				<div className="flex xl:flex-row flex-col justify-start items-center bg-gray-100 text-black sm:px-12 sm:py-12 px-5 py-6">
 					<div className="flex flex-col justify-center items-start w-full">
 						<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
 						<Partners />
 					</div>
-					<div className="flex flex-row justify-end items-center gap-4 mt-8 sm:h-56 h-36 z-10">
+					<div className="flex flex-row xl:justify-end justify-center items-center gap-4 mt-8 xl:h-56 xl:w-full h-fit w-1/3 z-10">
 						<video
 							controls
 							controlsList="nofullscreen nodownload noremoteplayback"
-							className="w-full h-full object-cover rounded-xl"
+							className="xl:w-full w-1/3 h-full object-cover rounded-xl"
 						>
 							<source src="/vid/testimonial_2.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
@@ -61,6 +67,14 @@ export default function Home() {
 							className="w-full h-full object-cover rounded-xl"
 						>
 							<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						<video
+							controls
+							controlsList="nofullscreen nodownload noremoteplayback"
+							className="w-full h-full object-cover rounded-xl"
+						>
+							<source src="/vid/testimonial_agency.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>
 					</div>
@@ -121,7 +135,7 @@ export default function Home() {
 					<div className="flex justify-center items-center mb-10">
 						<h1 className="font-normal">How to get started:</h1>
 					</div>
-					<div className="grid grid-cols-4 gap-12">
+					<div className="grid md:grid-cols-4 grid-rows-auto gap-12">
 						<div>
 							<img src="/calendar.svg" className="mb-4" />
 							<h3 className="font-medium">Schedule a Call</h3>
