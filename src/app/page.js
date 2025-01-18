@@ -35,26 +35,15 @@ export default function Home() {
 						</div>
 					</div>
 
-					<Partners />
+					{/* <Partners /> */}
 					{/* <div className="w-full flex justify-center items-center">
 					<DownArrow />
 				</div> */}
 				</PaddingContainer>
 
-				<div className="boxshadow bg-black text-white sm:px-20 sm:py-32 px-5 py-16">
-					<TextSwitcher />
-					<p className="mt-8">
-						Don&apos;t worry.{' '}
-						<strong>
-							Smartbooks<span class="orange">360</span>
-						</strong>{' '}
-						is here to help.
-					</p>
-					<p className="mt-8">
-						We are a team of experts that provide outsourced accounting & bookkeeping services to
-						small businesses. For us, there is no such thing as a silly question. Let&apos;s have a
-						conversation about your company&apos;s finances without the financial jargon.
-					</p>
+				<div className="flex flex-col justify-center items-center bg-gray-100 text-black sm:px-8 sm:py-12 px-5 py-6">
+					<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
+					<Partners />
 				</div>
 				<VectorReasons />
 
