@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 
 export default function Partners() {
 	const { width, height } = useWindowSize();
-	if (width > 640) {
+	if (width > 1570) {
 		return (
-			<div className="flex justify-center items-center flex-row gap-10">
+			<div className="flex justify-center items-center flex-row gap-10 overflow-hidden">
 				<Image
 					src="/partners/fence_appeal.avif"
 					width={120}
@@ -72,7 +72,7 @@ export default function Partners() {
 			<motion.div
 				className="flex justify-center items-center flex-row gap-10"
 				animate={[{ translateX: 0 }, { translateX: -210 }]}
-				initial={{ translateX: 210 }}
+				initial={{ translateX: 0 }}
 				transition={{
 					repeat: Infinity,
 					repeatType: 'reverse',

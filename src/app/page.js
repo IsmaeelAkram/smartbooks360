@@ -41,9 +41,21 @@ export default function Home() {
 				</div> */}
 				</PaddingContainer>
 
-				<div className="flex flex-col justify-center items-center bg-gray-100 text-black sm:px-8 sm:py-12 px-5 py-6">
-					<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
-					<Partners />
+				<div className="flex sm:flex-row flex-col justify-start items-center bg-gray-100 text-black sm:px-12 sm:py-12 px-5 py-6">
+					<div className="flex flex-col justify-center items-start w-full">
+						<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
+						<Partners />
+					</div>
+					<div className="flex flex-row justify-end items-center gap-4 mt-8 sm:h-56 h-36 z-20">
+						<video controls className="w-full h-full object-cover rounded-xl">
+							<source src="/vid/testimonial_2.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+						<video controls className="w-full h-full object-cover rounded-xl">
+							<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
+							Your browser does not support the video tag.
+						</video>
+					</div>
 				</div>
 				<VectorReasons />
 
@@ -62,18 +74,7 @@ export default function Home() {
 						</div>
 						<div>
 							<h3>What are the fees?</h3>
-							<p>
-								We use a flat rate fee per month. We can talk about what your business needs and
-								figure out how we can help you to succeed.
-							</p>
-						</div>
-						<div>
-							<h3>What services does smartbooks360 provide?</h3>
-							<p>
-								We are QuickBooks Online Certified ProAdvisors who specialize in QuickBooks. We work
-								remotely to help you understand your bookkeeping. We also partner with tax
-								professionals to assist with your tax needs.
-							</p>
+							<p></p>
 						</div>
 						<div>
 							<h3>How can I know if smartbooks360 is a good fit for my business?</h3>
