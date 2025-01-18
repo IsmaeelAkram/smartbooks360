@@ -46,7 +46,7 @@ export default function Home() {
 						<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
 						<Partners />
 					</div>
-					<div className="flex flex-row justify-end items-center gap-4 mt-8 sm:h-56 h-36 z-20">
+					<div className="flex flex-row justify-end items-center gap-4 mt-8 sm:h-56 h-36 z-10">
 						<video
 							controls
 							controlsList="nofullscreen nodownload noremoteplayback"
