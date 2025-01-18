@@ -24,7 +24,7 @@ export default function Header() {
 			</LogoContainer>
 			<div className="sm:col-span-4 flex items-start justify-end gap-10">
 				<Nav />
-				<div className="flex justify-center items-start h-full gap-3">
+				<div className="flex justify-center items-start h-full gap-3 mt-[5px]">
 					<a
 						href="https://www.linkedin.com/company/smartbooks360"
 						target="_blank"
