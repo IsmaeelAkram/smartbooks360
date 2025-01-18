@@ -88,7 +88,10 @@ export default function Home() {
 							data-lang="en"
 							data-theme="light"
 						></div>
-						<a href="https://proadvisor.intuit.com/app/accountant/search?searchId=anees-akram">
+						<a
+							href="https://proadvisor.intuit.com/app/accountant/search?searchId=anees-akram"
+							target="_blank"
+						>
 							<img
 								src="/quickbooks_review.jpg"
 								alt="Quickbooks Reviews"
