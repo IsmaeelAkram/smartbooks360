@@ -47,11 +47,19 @@ export default function Home() {
 						<Partners />
 					</div>
 					<div className="flex flex-row justify-end items-center gap-4 mt-8 sm:h-56 h-36 z-20">
-						<video controls className="w-full h-full object-cover rounded-xl">
+						<video
+							controls
+							controlsList="nofullscreen nodownload noremoteplayback"
+							className="w-full h-full object-cover rounded-xl"
+						>
 							<source src="/vid/testimonial_2.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>
-						<video controls className="w-full h-full object-cover rounded-xl">
+						<video
+							controls
+							controlsList="nofullscreen nodownload noremoteplayback"
+							className="w-full h-full object-cover rounded-xl"
+						>
 							<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>
