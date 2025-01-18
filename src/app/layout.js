@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
 				type="text/javascript"
 				async
 			></script>
+			<script src="https://grwapi.net/widget.min.js" type="text/javascript" async></script>
 		</html>
 	);
 }

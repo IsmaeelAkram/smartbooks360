@@ -143,3 +143,7 @@ h3 {
   font-weight: 500;
   transition: all .3s;
 }
+
+.grw-net-widget {
+  border-radius: 20px;
+}

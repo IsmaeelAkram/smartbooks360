@@ -47,37 +47,46 @@ export default function Home() {
 				</div> */}
 				</PaddingContainer>
 
-				<div className="flex xl:flex-row flex-col justify-start items-center bg-gray-100 text-black sm:px-12 sm:py-12 px-5 py-6">
-					<div className="flex flex-col justify-center items-start w-full">
-						<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
-						<Partners />
+				<div className="flex flex-col bg-gray-100 text-black sm:px-12 sm:py-12 px-5 py-6">
+					<div className="flex xl:flex-row flex-col justify-start items-center ">
+						<div className="flex flex-col justify-center items-start w-full">
+							<h4 className="uppercase mb-4 font-medium">Trusted by many</h4>
+							<Partners />
+						</div>
+						<div className="flex flex-row xl:justify-end justify-center items-center gap-4 mt-8 xl:h-56 xl:w-full h-fit w-1/3 z-10">
+							<video
+								controls
+								controlsList="nofullscreen nodownload noremoteplayback"
+								className="xl:w-full w-1/3 h-full object-cover rounded-xl"
+							>
+								<source src="/vid/testimonial_2.mp4" type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<video
+								controls
+								controlsList="nofullscreen nodownload noremoteplayback"
+								className="w-full h-full object-cover rounded-xl"
+							>
+								<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<video
+								controls
+								controlsList="nofullscreen nodownload noremoteplayback"
+								className="w-full h-full object-cover rounded-xl"
+							>
+								<source src="/vid/testimonial_agency.mp4" type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+						</div>
 					</div>
-					<div className="flex flex-row xl:justify-end justify-center items-center gap-4 mt-8 xl:h-56 xl:w-full h-fit w-1/3 z-10">
-						<video
-							controls
-							controlsList="nofullscreen nodownload noremoteplayback"
-							className="xl:w-full w-1/3 h-full object-cover rounded-xl"
-						>
-							<source src="/vid/testimonial_2.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-						<video
-							controls
-							controlsList="nofullscreen nodownload noremoteplayback"
-							className="w-full h-full object-cover rounded-xl"
-						>
-							<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-						<video
-							controls
-							controlsList="nofullscreen nodownload noremoteplayback"
-							className="w-full h-full object-cover rounded-xl"
-						>
-							<source src="/vid/testimonial_agency.mp4" type="video/mp4" />
-							Your browser does not support the video tag.
-						</video>
-					</div>
+					<div
+						class="review-widget_net mt-5"
+						data-uuid="9dfff837-9467-4df8-b364-3462ef756065"
+						data-template="2"
+						data-lang="en"
+						data-theme="light"
+					></div>
 				</div>
 				<VectorReasons />
 
