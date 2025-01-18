@@ -18,30 +18,6 @@ export default function Partners() {
 					onClick={() => window.open('https://www.fenceappealct.com/', '_blank')}
 				/>
 				<Image
-					src="/partners/valueprop.webp"
-					width={120}
-					height={120}
-					alt="ValueProp"
-					className="cursor-pointer"
-					onClick={() => window.open('https://www.valueprop.com/', '_blank')}
-				/>
-				<Image
-					src="/partners/superdank.svg"
-					width={42}
-					height={42}
-					alt="SuperDank"
-					className="cursor-pointer"
-					onClick={() => window.open('https://www.superdankmedia.com/', '_blank')}
-				/>
-				<Image
-					src="/partners/contractor_growth_strategy.webp"
-					width={78}
-					height={78}
-					alt="Contractor Growth Strategy"
-					className="cursor-pointer"
-					onClick={() => window.open('https://contractorgrowthstrategy.com/', '_blank')}
-				/>
-				<Image
 					src="/partners/PCS_edited.avif"
 					width={60}
 					height={60}
@@ -56,6 +32,31 @@ export default function Partners() {
 					alt="Browne"
 					className="cursor-pointer"
 					onClick={() => window.open('https://www.browneins.com/', '_blank')}
+				/>
+				<Image
+					src="/partners/contractor_growth_strategy.webp"
+					width={78}
+					height={78}
+					alt="Contractor Growth Strategy"
+					className="cursor-pointer"
+					onClick={() => window.open('https://contractorgrowthstrategy.com/', '_blank')}
+				/>
+
+				<Image
+					src="/partners/valueprop.webp"
+					width={120}
+					height={120}
+					alt="ValueProp"
+					className="cursor-pointer"
+					onClick={() => window.open('https://www.valueprop.com/', '_blank')}
+				/>
+				<Image
+					src="/partners/superdank.svg"
+					width={42}
+					height={42}
+					alt="SuperDank"
+					className="cursor-pointer"
+					onClick={() => window.open('https://www.superdankmedia.com/', '_blank')}
 				/>
 				<Image
 					src="/partners/center_stage_cinema.avif"
@@ -89,30 +90,6 @@ export default function Partners() {
 					onClick={() => window.open('https://www.fenceappealct.com/', '_blank')}
 				/>
 				<Image
-					src="/partners/valueprop.webp"
-					width={120}
-					height={120}
-					alt="ValueProp"
-					className="cursor-pointer"
-					onClick={() => window.open('https://www.valueprop.com/', '_blank')}
-				/>
-				<Image
-					src="/partners/superdank.svg"
-					width={42}
-					height={42}
-					alt="SuperDank"
-					className="cursor-pointer"
-					onClick={() => window.open('https://www.superdankmedia.com/', '_blank')}
-				/>
-				<Image
-					src="/partners/contractor_growth_strategy.webp"
-					width={78}
-					height={78}
-					alt="Contractor Growth Strategy"
-					className="cursor-pointer"
-					onClick={() => window.open('https://contractorgrowthstrategy.com/', '_blank')}
-				/>
-				<Image
 					src="/partners/PCS_edited.avif"
 					width={60}
 					height={60}
@@ -127,6 +104,30 @@ export default function Partners() {
 					alt="Browne"
 					className="cursor-pointer"
 					onClick={() => window.open('https://www.browneins.com/', '_blank')}
+				/>
+				<Image
+					src="/partners/contractor_growth_strategy.webp"
+					width={78}
+					height={78}
+					alt="Contractor Growth Strategy"
+					className="cursor-pointer"
+					onClick={() => window.open('https://contractorgrowthstrategy.com/', '_blank')}
+				/>
+				<Image
+					src="/partners/valueprop.webp"
+					width={120}
+					height={120}
+					alt="ValueProp"
+					className="cursor-pointer"
+					onClick={() => window.open('https://www.valueprop.com/', '_blank')}
+				/>
+				<Image
+					src="/partners/superdank.svg"
+					width={42}
+					height={42}
+					alt="SuperDank"
+					className="cursor-pointer"
+					onClick={() => window.open('https://www.superdankmedia.com/', '_blank')}
 				/>
 				<Image
 					src="/partners/center_stage_cinema.avif"
