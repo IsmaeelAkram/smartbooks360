@@ -59,7 +59,7 @@ export default function Home() {
 								controlsList="nofullscreen nodownload noremoteplayback"
 								className="xl:w-full w-1/3 h-full object-cover rounded-xl"
 							>
-								<source src="/vid/testimonial_2.mp4" type="video/mp4" />
+								<source src="/vid/testimonial_2.mp4#t=0.001" type="video/mp4" />
 								Your browser does not support the video tag.
 							</video>
 							<video
@@ -67,7 +67,7 @@ export default function Home() {
 								controlsList="nofullscreen nodownload noremoteplayback"
 								className="w-full h-full object-cover rounded-xl"
 							>
-								<source src="/vid/testimonial_pcs.mp4" type="video/mp4" />
+								<source src="/vid/testimonial_pcs.mp4#t=0.001" type="video/mp4" />
 								Your browser does not support the video tag.
 							</video>
 							<video
@@ -75,7 +75,7 @@ export default function Home() {
 								controlsList="nofullscreen nodownload noremoteplayback"
 								className="w-full h-full object-cover rounded-xl"
 							>
-								<source src="/vid/testimonial_agency.mp4" type="video/mp4" />
+								<source src="/vid/testimonial_agency.mp4#t=0.001" type="video/mp4" />
 								Your browser does not support the video tag.
 							</video>
 						</div>
