@@ -62,9 +62,9 @@ export default function VectorReasons() {
 			<div className="mt-12 grid auto-rows-auto sm:grid-cols-6">
 				<div className="sm:col-span-4 flex justify-center items-start flex-col mx-10">
 					<h2>
-						Customizing your bookkeeping
+						Maximize your write-offs,
 						<br />
-						to fit your business needs
+						Simplify your books
 					</h2>
 					<ul className="list-disc">
 						<li>
